@@ -10,4 +10,28 @@
 
 # Ignore sensitive configuration files
 terraform.tfvars
-gi
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+crash.*.log
+
+# Ignore Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
